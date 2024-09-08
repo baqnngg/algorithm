@@ -4,7 +4,7 @@
 # print("%.1f\n%.1f" %(sum(S),(sum(S)/len(S))))
 
 
-# 2번
+# 2번 ------- 피보나치 수열
 # n = int(input())
 # dp = [0] * (n+1)
 # dp[0] = 1
@@ -53,7 +53,7 @@
 # print(len(lis))
 
 
-# 6번
+# 6번 ----------- 트리구조
 # def haha(sn):
 #     visited[sn] += 1
 #     for i in adj_list[sn]:
@@ -72,4 +72,6 @@
 # print(visited.count(1)-1)
 
 
-# 7번
+# 7번 ========= 다익스트라 숙지
+
+# 8번 ============= 힙트리?가 뭐임?
