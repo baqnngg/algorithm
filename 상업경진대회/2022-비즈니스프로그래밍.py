@@ -17,8 +17,3 @@
 #         else:
 #             n[j] = 0
 # print(*t)
-
-
-# 3번
-n = int(input())
-p1 = list(map(int,input().split()))
