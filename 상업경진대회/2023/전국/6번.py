@@ -10,6 +10,8 @@ adj_list = [[] for _ in range(n+1)]
 visited = [0] * (n+1)
 for _ in range(p):
     s,e = map(int,input().split())
+    if s in adj_list[e] and e in adj_list[s]:
+        continue
     adj_list[s].append(e)
     adj_list[e].append(s)
 t = int(input())
