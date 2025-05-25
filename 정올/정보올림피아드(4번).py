@@ -1,4 +1,6 @@
 from collections import deque
+import sys
+input = sys.stdin.readline
 
 #처음 min_ch...에서 안막히려고
 min_change = 99999
